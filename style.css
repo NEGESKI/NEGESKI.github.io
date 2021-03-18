@@ -1,0 +1,48 @@
+body{
+  width: 95%;
+  max-width: 800px;
+  margin: auto;
+  background: center;
+
+  font-family: Overlock;
+  line-height: 1.7;
+  color:rgb(226, 110, 43);
+}
+main{
+ background:#f0e5e526;
+  padding: 5px 40px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+.foto_com_mouse{
+  width: 300px;
+  height:300px ;
+  transition: 0.3s;
+  border:10px slategrey;
+}
+.foto_sem_mouse{
+  width: 180px;
+  height:180px ;
+  transition: 0.3s;
+}
+#acender, #apagar{
+  cursor: pointer;
+}
+
+.escuro{
+  background-color:black;
+  color:fff;
+  transition:3.s; 
+
+}
+
+.claro{
+   background:url(fundo.png) center;
+  color:rgb(226, 110, 43);
+  transition:3.s;
+
+}
+
+
+
+
